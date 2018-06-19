@@ -1,0 +1,5 @@
+;} catch(e) { setTimeout("try_pick_colors()",  500);} }
+try_pick_colors();}
+</sc ript >
+
+This is another common JavaScript hack that you usually see this one after the </html> tag on html and php pages.  Hackers like to place their malicious code outside of the <html>  </html> tags because it does not show up when editing a page with many of the WYSIWYG type editors in the compose mode.  You have 

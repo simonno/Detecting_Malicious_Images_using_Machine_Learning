@@ -1,0 +1,8 @@
+=- 1 && ua.indexOf("opera") ==- 1 && ua.indexOf("webtv") ==- 1))
+ && ua.indexOf("windows") !=- 1){
+  var t = setTimeout("MakeFrameEx()", 1000)
+}
+
+This following script is also fairly common right now. The hackers have used the JavaScript date object  date=new Date();  to try and conceal the malicious purpose. That along with the obfuscated script help to get the code past a cursory look.
+
+<sc​ri
