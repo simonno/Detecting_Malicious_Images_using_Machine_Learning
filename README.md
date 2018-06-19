@@ -1,9 +1,3 @@
-# Detecting_Malicious_Images_using_Machine_Learning
-General description
-The project's goal is to develop, through the Machine Learning tool, a solution to detect malicious image attacks.
-The project consists two main stages:
-  •	The first stage consists of learning Web weaknesses.  We investigated the XSS and CSRF attacks. We developed vulnerable sites to the different types of weaknesses. Implements of an attack site and an illustration of the attack of XSS and CSRF attacks. 
-  •	The second stage consists of the construction of stenography images, and the identification of stenography images using machine learning.
     The levels to perform this task:
       o	Building dataset of stenography images. Choosing CIFAR-10 dataset. Consists 50K 32x32 color images in 5 classes, with 10K images per class.
         Select 25K images, and inject 384B malicious JS code to each image. Inject code every to the forth bit for each R, G, and B of the every RGB pixel.
@@ -24,11 +18,28 @@ The project consists two main stages:
 
 # Detecting Malicious Images using Machine Learning
 
+## The Goal
 The project's goal is to develop, through the Machine Learning tool, a solution to detect malicious image attacks.
+The project consists two main stages:
+  •	The first stage consists of learning Web weaknesses. We investigated the XSS and CSRF attacks. We developed vulnerable sites to the
+    different types of weaknesses. Implements of an attack site and an illustration of the attack of XSS and CSRF attacks. 
+  •	The second stage consists of the construction of stenography images, and the identification of stenography images using machine
+    learning.
+ 
+## Work Stages
+1.  Building dataset of stenography images: 
+    o Choosing CIFAR-10 dataset. 
+    o Consists 50K 32x32 color images in 5 classes, with 10K images per class.
+    o Select 25K images, and inject 384B malicious JS code to each image. Inject code every to the forth bit for each R, G, and B of the
+      every RGB pixel.
+    o 
+2.  Writing the images to CSV file:
+    o x.cvs and y.csv.
+    o x.csv - each row contain the pixels' data in RGB format of each image.
+    o y.csv - each row contain tag of each image, 1 - malicious image and 0 - clear image.
+3.	Using XGBoost – Building The Machine Learning model, to detect malicious images:
+    First, we and then we implement XGBoost model with depth of 256. We defined that features are the pixels. 
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
