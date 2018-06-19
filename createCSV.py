@@ -9,7 +9,7 @@ def convert_array_to_csv(file_name, array):
     df.to_csv(file_name + ".csv", header=None, index=None)
 
 
-def create_CSV(number_of_images):
+def create_CSV(number_of_images=10000):
     images_array = []
     label_array = []
     malware_images_number = number_of_images / 2
@@ -33,4 +33,4 @@ def create_CSV(number_of_images):
 
 
 if __name__ == "__main__":
-    create_CSV(10000)
+    create_CSV()
