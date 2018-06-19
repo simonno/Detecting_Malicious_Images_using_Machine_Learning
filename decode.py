@@ -1,7 +1,7 @@
 import cv2  # OpenCV 2
 
 # Read the image and try to restore the message
-img = cv2.imread('output.png', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('output.png', cv2.IMREAD_COLOR)
 i = 0
 bits = ''
 chars = []

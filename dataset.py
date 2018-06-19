@@ -25,13 +25,6 @@ class CSVDataset(data.Dataset):
         return self.len
 
     def __getitem__(self, index):
-        # sample = self.data[index]
-        # y = sample.item(-1)
-        # if y == 0:
-        #     y = torch.FloatTensor([1, 0])
-        # else:
-        #     y = torch.FloatTensor([0, 1])
-        # x = np.delete(sample, len(sample) - 1)
         x = torch.Tensor(self.x_matrix[index])
         y = self.y_matrix[index]
         return x, y

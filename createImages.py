@@ -1,6 +1,5 @@
-import _pickle as cPickle
+import pickle as cPickle
 import os
-
 import mxnet as mx
 import numpy as np
 import cv2
