@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 
 
 # load data
-import xgboost
 
-X = loadtxt('x2.csv', delimiter=",")
-Y = loadtxt('y2.csv')
+
+X = loadtxt('x.csv', delimiter=",")
+Y = loadtxt('y.csv')
 
 # split data into train and test sets
 test_size = 0.2
