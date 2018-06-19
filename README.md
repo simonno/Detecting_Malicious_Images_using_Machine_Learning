@@ -1,6 +1,6 @@
 
 # Detecting Malicious Images using Machine Learning
-### The project's goal is to develop, through the Machine Learning tool, a solution to detect malicious image attacks.
+### The project's goal is to develop solution to detect malicious image attacks, through the Machine Learning tool.
 The project consists two main stages:
 1.	The first stage consists of learning Web weaknesses. We investigated the XSS and CSRF attacks. We developed vulnerable sites to the
     different types of weaknesses. Implements of an attack site and an illustration of the attack of XSS and CSRF attacks. 
