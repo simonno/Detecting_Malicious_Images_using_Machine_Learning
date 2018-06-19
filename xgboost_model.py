@@ -1,12 +1,10 @@
+import xgboost
 from numpy import loadtxt
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 
-
 # load data
-
-
 X = loadtxt('x.csv', delimiter=",")
 Y = loadtxt('y.csv')
 
